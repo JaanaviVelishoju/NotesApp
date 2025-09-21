@@ -10,8 +10,14 @@
   <textarea id="noteInput" placeholder="Write your note here..."></textarea>
   <button onclick="saveNote()">Save Note</button>
 
+    <input type="text" id="searchInput" placeholder="Search notes..." 
+    onkeyup="searchNotes()" />
+
   <h2>Saved Notes</h2>
   <ul id="notesList"></ul>
+
+  <button onclick="exportNotes()">
+    Export Notes</button>
 
   <script src="app.js"></script>
 </body>

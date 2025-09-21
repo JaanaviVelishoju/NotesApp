@@ -30,3 +30,8 @@ li {
   padding: 8px;
   border-radius: 5px;
 }
+
+.note-text {
+  flex: 1;
+  margin-right: 10px;
+}
